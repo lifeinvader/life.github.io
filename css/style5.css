@@ -1,0 +1,38 @@
+@import 'https://fonts.googleapis.com/css?family=Playfair+Display';
+.bmenu{
+    padding: 0px;
+    margin: 0 0 10px 0;
+    position: relative;
+}
+.bmenu li{
+    font-size: 50px;
+    display: block;
+}
+.bmenu li a{
+    font-family: 'Playfair Display', serif;
+	color: transparent;
+	display: block;
+	text-transform: uppercase;
+	text-shadow: 0px 0px 4px #fff;
+	letter-spacing: 1px;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-o-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
+}
+.bmenu:hover li a{
+	text-shadow: 0px 0px 6px #fff;
+}
+.bmenu li a:hover{
+	color: aqua;
+	text-shadow: 0px 0px 1px #fff;
+	padding-left: 10px;
+}
+.logo{
+    margin-top: -400px;
+	
+	margin-left: 40px;
+    width: 200px;
+    
+}

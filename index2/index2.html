@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<title>Галерея</title>
+		<link rel="stylesheet" type="text/css" href="css/default.css" />
+		<script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.js"></script>
+	    <script type="text/javascript" src="js/jquery.flipping_gallery.js"></script>
+	    <link rel="stylesheet" type="text/css" href="css/flipping_gallery.css" />
+	    <link rel="stylesheet" type="text/css" href="css/style2.css" />
+	</head>
+	<body class="demo1">
+		
+		
+		<div class="main">
+			<div class="page_container">
+				<div class="gallery">
+					<a href="#"><img src="img/1.jpg" width="500px"></a>
+					<a href="#"><img src="img/2.jpg" width="500px"></a>
+					<a href="#"><img src="img/3.jpg" width="500px"></a>
+					<a href="#"><img src="img/4.jpg" width="500px"></a>
+					<a href="#"><img src="img/6.JPG" width="500px"></a>
+					<a href="#"><img src="img/7.JPG" width="500px"></a>
+					<a href="#"><img src="img/8.JPG" width="500px"></a>
+					<a href="#"><img src="img/9.JPG" width="500px"></a>
+					<a href="#"><img src="img/5.JPG" width="500px"></a>
+					
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript">
+			$(document).ready( function() {
+				$(".gallery").flipping_gallery({
+					enableScroll: false
+				});
+			});
+			
+		</script>
+		<div class="logo"><img src="img/logo.png" width="170px"  ></div>
+		
+	</body>
+</html>
